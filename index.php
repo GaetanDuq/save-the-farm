@@ -1,6 +1,5 @@
 <?php
 
-// Global Variable Initialization
 $rounds_left = 25;
 $location = "kitchen";
 $wearing_glasses = TRUE;
@@ -11,7 +10,6 @@ $moved_cupboard = FALSE;
 $is_hungry = TRUE;
 $needs_to_pee = TRUE;
 
-// Include each of the function definitions
 
 include "printHelp.php";
 include "gameRound.php";
@@ -69,6 +67,3 @@ gameRound();
 
 // Game Is Over
 echo "\n**********ATTENTION***********\n The game is over!" ;
-
-
-

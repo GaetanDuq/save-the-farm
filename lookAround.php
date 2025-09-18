@@ -1,10 +1,7 @@
 <?php
-  // Describe current location
 	function lookAround(){
-	// Write your code here:
   global $location, $wearing_glasses, $wearing_contacts, $moved_cupboard;
   if ($wearing_glasses xor $wearing_contacts){
-      // Our switch will go here:
         switch ($location) {
       case "kitchen":
         echo "This kitchen comes with all the tools and ingredients needed to cook mushroom soup--- except the mushrooms!\n\nFrom here, you see the door to the *bathroom* and the backdoor, which leads to the *woods*.\n\n";

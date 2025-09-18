@@ -1,7 +1,6 @@
 <?php
 
 function pee(){
-	// Write your code here:
   global $location, $needs_to_pee;
 
   if ($location === "bathroom" || $location === "woods") {

@@ -6,8 +6,6 @@ function moveCupboard(){
 
     $ready_to_work = !$is_hungry && $wearing_contacts && !$wearing_glasses && !$needs_to_pee;
 
-	// Write your code here:
-
     if ($location !== "kitchen") {
       echo "You don't see a cupboard here!\n";
     } elseif ($moved_cupboard) {
